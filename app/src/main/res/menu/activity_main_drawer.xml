@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/street_view"
+            android:title="Street"
+            />
+        <item
+            android:id="@+id/satellite_view"
+            android:title="Satellite" />
+        <item
+            android:id="@+id/terrain"
+            android:title="Terrain" />
+
+    </group>
+    <item android:title="Tools">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/show_danger_area"
+                    android:title="Show Danger Areas"
+                    />
+                <item
+                    android:id="@+id/show_danger_reported"
+                    android:title="Show Danger Reported"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/support"
+                android:title="Support" />
+            <item
+                android:id="@+id/rate_the_app"
+                android:title="Rate the app" />
+        </menu>
+    </item>
+
+</menu>
